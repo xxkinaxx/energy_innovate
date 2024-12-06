@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnergyInnovate</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="asset/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet">
+</head>
+
+<body class="lg:overflow-hidden" id="body">
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900" id="navbar">
+        <div class="bg-gradient-to-b from-slate-800 to-transparent bg-opacity-75 px-7 py-7 flex flex-wrap flex-row justify-between align-middle fixed duration-300 w-full z-50" style="align-items: center;">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="asset/logo.png" class="w-10 h-10 rounded-full" alt="logo" />
+                <span class="font-bold font-sans text-white text-xl xl:text-3xl me-10 cursor-pointer ms-3" id="title">EnergyInnovate</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 me-10 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
+                    <li>
+                        <a href="#introduction"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            aria-current="page">Perkenalan</a>
+                    </li>
+                    <li>
+                        <a href="#technology"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Teknologi</a>
+                    </li>
+                    <li>
+                        <a href="#innovation"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inovasi</a>
+                    </li>
+                    <li>
+                        <a href="#scientist"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ilmuwan</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="min-h-screen w-full flex justify-around overflow-hidden home pb-10"
+        style="align-items: end; background-image: url(asset/bg-hero.png); background-size: cover; background-attachment: fixed;"
+        id="hero">
+        <div class="ms-10" id="text">
+            <h2 class="text-9xl text-white font-bold pb-10">Energy ___ Innovate</h2>
+            <div class="">
+                <p class="text-white text-xl font-light">"Masa Depan Energi, Hari Ini"</p>
+            </div>
+        </div>
+        <button type="button"
+            class="hidden lg:flex text-white hover:text-white hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 duration-300"
+            style="align-items: center;" id="hero-button">
+            <p class="text-xl">Explore more</p>
+            <div class="w-10 h-10 z-20 ms-5">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                        stroke-width="0.288"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M12 4V20M12 4L8 8M12 4L16 8" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    <div class="min-h-screen bg-white p-10 lg:p-20 pb-36" id="introduction">
+        <div class="p-2 mx-5 border-b-2 border-gray-700">
+            <h1 class="text-xl font-pacifico"><small class="me-2 font-light">01</small>Introduction
+            </h1>
+        </div>
+        <div class="p-5">
+            <div class="py-10">
+                <h2 class="text-3xl font-bold">Teknologi Terdepan untuk Energi Masa Depan</h2>
+            </div>
+            <div class="flex justify-between flex-col lg:flex-row mt-10">
+                <img src="asset/image.jpg" alt="" class="w-full xl:w-3/5 -ms-28" style="border-radius: 0 1000px 1000px 0;">
+                <div class="mt-20 text-center xl:text-left xl:w-2/4">
+                    <h2 class="font-public-sans xl:ms-20 mb-10">EnergyInnovate adalah platform terkemuka yang didedikasikan
+                        untuk mendokumentasikan dan mempromosikan perkembangan terbaru dalam dunia energi. Di era yang
+                        semakin menyadari pentingnya sumber daya berkelanjutan, kami memahami bahwa inovasi dalam teknologi
+                        energi adalah kunci untuk masa depan yang lebih hijau dan efisien. Kami menyediakan informasi
+                        mendalam tentang berbagai solusi energi yang mencakup energi terbarukan seperti tenaga surya, angin,
+                        dan hidro, serta teknologi penyimpanan energi mutakhir yang mendukung transisi ini.</h2>
+                    <h2 class="font-public-sans xl:ms-20">Di EnergyInnovate, kami berkomitmen untuk menjadi jembatan
+                        antara penemuan teknologi dan implementasi industri. Kami menggali lebih dalam ke dalam aspek teknis
+                        dan praktis dari berbagai inovasi, dari pengembangan baterai dengan kapasitas tinggi hingga
+                        integrasi smart grid yang memungkinkan manajemen energi yang lebih efektif dan responsif. Selain
+                        itu, kami juga menyoroti dampak ekonomi dan sosial dari setiap inovasi, menjelaskan bagaimana
+                        teknologi ini tidak hanya mengubah cara kita menghasilkan dan menggunakan energi, tetapi juga
+                        membuka peluang baru bagi industri dan masyarakat.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="min-h-screen bg-white p-10 lg:p-20" id="technology">
+        <div class="p-2 mx-5 border-b-2 border-gray-700">
+            <h1 class="text-xl font-pacifico"><small class="me-2 font-light">02</small>Technology
+            </h1>
+        </div>
+        <h1 class="text-center font-bold my-20" style="font-size: 50px;">Teknologi kami</h1>
+        <div class="grid md:grid-cols-2 xl:grid-cols-4">
+            <div class="p-5 mx-5 border-t-2 border-gray-700">
+                <h1 class="text-xl font-public-sans">Solar Energy</h1>
+                <div class="py-5">
+                    <svg fill="#000000" width="64px" height="64px" viewBox="0 -64 640 640"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M431.98 448.01l-47.97.05V416h-128v32.21l-47.98.05c-8.82.01-15.97 7.16-15.98 15.99l-.05 31.73c-.01 8.85 7.17 16.03 16.02 16.02l223.96-.26c8.82-.01 15.97-7.16 15.98-15.98l.04-31.73c.01-8.85-7.17-16.03-16.02-16.02zM585.2 26.74C582.58 11.31 568.99 0 553.06 0H86.93C71 0 57.41 11.31 54.79 26.74-3.32 369.16.04 348.08.03 352c-.03 17.32 14.29 32 32.6 32h574.74c18.23 0 32.51-14.56 32.59-31.79.02-4.08 3.35 16.95-54.76-325.47zM259.83 64h120.33l9.77 96H250.06l9.77-96zm-75.17 256H71.09L90.1 208h105.97l-11.41 112zm16.29-160H98.24l16.29-96h96.19l-9.77 96zm32.82 160l11.4-112h149.65l11.4 112H233.77zm195.5-256h96.19l16.29 96H439.04l-9.77-96zm26.06 256l-11.4-112H549.9l19.01 112H455.33z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <p class="font-public-sans font-extralight">Energi surya adalah energi yang berasal dari sinar matahari.
+                    Panel surya digunakan untuk mengonversi sinar matahari menjadi listrik melalui efek fotovoltaik.
+                    Energi surya merupakan sumber energi yang bersih dan melimpah, sangat efektif dalam mengurangi emisi
+                    karbon dan dapat digunakan di berbagai lokasi, termasuk rumah tangga dan industri.</p>
+            </div>
+            <div class="p-5 mx-5 border-t-2 border-gray-700">
+                <h1 class="text-xl font-public-sans">Hydro Energy</h1>
+                <div class="py-5">
+                    <svg width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 3.1L7.05 8.05a7 7 0 1 0 9.9 0L12 3.1zm0-2.828l6.364 6.364a9 9 0 1 1-12.728 0L12 .272zM13 11h2.5L11 17.5V13H8.5L13 6.5V11z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p class="font-public-sans font-extralight">Energi air, atau hidroenergi, adalah energi yang diperoleh
+                    dari pergerakan air, seperti arus sungai, air terjun, atau gelombang laut. Pembangkit listrik tenaga
+                    air mengonversi energi kinetik dari aliran air menjadi listrik. Ini adalah salah satu sumber energi
+                    terbarukan tertua dan paling andal, sering digunakan di daerah dengan sumber daya air yang melimpah.
+                </p>
+            </div>
+            <div class="p-5 mx-5 border-t-2 border-gray-700">
+                <h1 class="text-xl font-public-sans">Geothermal Energy</h1>
+                <div class="py-5">
+                    <svg fill="#000000" height="64px" width="64px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M499.786,457.561h-15.021v-75.125c0-7.879-6.41-14.289-14.289-14.289h-24.479v-78.151c0-7.879-6.41-14.289-14.289-14.289 H396.49c-3.126-35.372-4.107-66.047-4.107-81.084V184.44c0-6.26-3.199-11.784-8.048-15.029 c-0.785-6.487-2.348-12.783-4.698-18.83c11.802-2.46,22.719-8.203,31.533-16.72c10.239-9.895,16.837-22.746,18.927-36.669 c16.926-5.763,28.678-21.776,28.678-40.107c0-23.367-19.011-42.378-42.378-42.378c-11.11,0-21.531,4.254-29.382,11.84 c-6.615-2.241-13.515-3.373-20.581-3.373c-22.811,0-43.9,12.208-55.404,31.594c-4.297-0.832-8.664-1.252-13.045-1.252 c-15.65,0-30.957,5.41-43.103,15.235c-10.533,8.519-18.347,20.044-22.375,32.871c-33.397,6.434-58.953,33.728-63.179,67.511 c-5.097,3.201-8.504,8.856-8.504,15.307v10.181c0,3.94-0.09,17.45-1.142,38.335h-56.287c-8.689,0-15.759,7.068-15.759,15.758 v7.854c0,54.306-10.133,172.98-41.224,200.995H12.214C5.479,457.561,0,463.042,0,469.777v15.302 c0,6.734,5.479,12.214,12.214,12.214h487.573c6.734,0,12.214-5.48,12.214-12.214v-15.302 C512,463.042,506.52,457.561,499.786,457.561z M468.887,384.025v5.822h-54.255c-0.5-1.893-0.994-3.833-1.485-5.822H468.887z M421.521,412.603c-0.768-2.2-1.534-4.492-2.295-6.88h49.661v6.88H421.521z M468.887,428.48v29.082h-21.615 c-5.952-5.173-12.719-14.046-19.477-29.082H468.887z M409.53,368.147c-2.2-10.478-4.298-22.077-6.251-34.93h26.84v34.93H409.53z M430.119,291.584v25.757h-29.087c-1.141-8.663-2.143-17.291-3.021-25.757H430.119z M426.138,457.561H311.093 c-16.739-15.079-27.404-56.426-33.682-99.872h113.887C399.881,403.988,411.548,437.411,426.138,457.561z M385.252,319.114 c0.563,4.292,1.156,8.589,1.788,12.88c0.492,3.334,1,6.593,1.52,9.817H275.316c-0.917-7.635-1.706-15.244-2.377-22.697H385.252z M239.789,116.54c3.324-0.409,6.034-2.857,6.775-6.122c5.483-24.153,26.628-41.022,51.422-41.022 c5.051,0,10.077,0.727,14.936,2.159c3.773,1.111,7.801-0.71,9.452-4.288c7.912-17.139,25.206-28.214,44.06-28.214 c6.799,0,13.39,1.39,19.591,4.132c3.327,1.472,7.232,0.493,9.47-2.377c5.067-6.497,12.686-10.223,20.902-10.223 c14.613,0,26.501,11.889,26.501,26.501c0,12.743-9.077,23.694-21.584,26.037c-3.584,0.672-6.248,3.698-6.462,7.338 c-1.468,25-22.246,45.023-47.304,45.586c-2.797,0.064-5.352,1.591-6.729,4.024c-1.379,2.432-1.375,5.411,0.008,7.84 c3.314,5.82,5.616,12.002,6.931,18.449H185.851C191.175,140.222,212.677,119.865,239.789,116.54z M176.703,194.621V184.44 c0-1.213,0.988-2.202,2.201-2.202h195.403c1.212,0,2.2,0.989,2.2,2.202v10.181c0,18.921,1.522,62.138,6.804,108.615H271.67 c-1.246-17.753-1.802-33.974-1.802-46.67v-7.854c0-8.689-7.07-15.758-15.759-15.758h-78.529 C176.613,212.144,176.703,198.606,176.703,194.621z M95.371,362.787c6.442-43.711,8.145-88.594,8.145-106.221v-7.734h150.476 v7.734c0,17.626,1.702,62.511,8.144,106.221c0.541,3.667,1.102,7.245,1.685,10.74H93.686 C94.268,370.033,94.83,366.454,95.371,362.787z M90.771,389.406h175.965c1.142,5.674,2.35,11.083,3.621,16.224H87.148 C88.421,400.488,89.628,395.08,90.771,389.406z M82.754,421.507h192c4.621,14.913,9.929,26.948,15.901,36.055H66.851 C72.825,448.456,78.131,436.42,82.754,421.507z M496.123,481.416H15.877v-7.978h480.246V481.416z">
+                                        </path>
+                                        <circle cx="276.605" cy="201.553" r="7.873"></circle>
+                                        <circle cx="211.628" cy="201.554" r="7.873"></circle>
+                                        <circle cx="341.581" cy="201.553" r="7.873"></circle>
+                                        <circle cx="227.443" cy="270.003" r="7.873"></circle>
+                                        <circle cx="130.063" cy="270.003" r="7.873"></circle>
+                                        <circle cx="178.753" cy="270.003" r="7.873"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p class="font-public-sans font-extralight">Energi panas bumi berasal dari panas yang tersimpan di dalam
+                    bumi. Panas ini bisa digunakan untuk menghasilkan listrik atau sebagai sumber panas langsung untuk
+                    pemanasan ruangan dan industri. Pembangkit listrik tenaga panas bumi memanfaatkan uap atau air panas
+                    dari bawah permukaan bumi untuk menggerakkan turbin. Energi ini sangat stabil dan tidak terpengaruh
+                    oleh kondisi cuaca.</p>
+            </div>
+            <div class="p-5 mx-5 border-t-2 border-gray-700">
+                <h1 class="text-xl font-public-sans">Wind Energy</h1>
+                <div class="py-5">
+                    <svg fill="#000000" height="64px" width="64px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M372.941,31.659c2.483-2.441,7.714-6.059,11.059-6.059c6.869,0,8.431,4.693,8.533,8.533v0.043v0.034v0.017v0.017v0.009 c0,0,0,0,0,0.009c0.068,4.651,3.866,8.405,8.533,8.405c4.685,0,8.491-3.772,8.533-8.448c0.102-3.934,1.672-8.619,8.533-8.619 c3.345,0,8.576,3.618,11.034,6.033c3.337,3.337,8.73,3.337,12.066,0s3.337-8.73,0-12.066c-1.126-1.126-11.366-11.034-23.1-11.034 c-7.475,0-13.056,2.423-17.067,5.999c-4.011-3.576-9.591-5.999-17.067-5.999c-11.733,0-21.973,9.907-23.1,11.034 c-3.328,3.319-3.319,8.695-0.009,12.032C364.194,34.935,369.596,34.953,372.941,31.659z">
+                                        </path>
+                                        <path
+                                            d="M422.519,136.917c-1.442-0.256-2.91-0.384-4.386-0.384c-14.114,0-25.6,11.486-25.6,25.6s11.486,25.6,25.6,25.6H486.4 c14.114,0,25.6-11.486,25.6-25.6s-11.486-25.6-25.6-25.6c-1.476,0-2.944,0.128-4.386,0.384 c-5.888-10.607-17.092-17.451-29.747-17.451C439.612,119.467,428.407,126.31,422.519,136.917z M435.695,149.743 c1.801-7.774,8.619-13.21,16.572-13.21c7.953,0,14.771,5.436,16.572,13.21c0.623,2.705,2.526,4.941,5.103,5.982 c2.569,1.041,5.495,0.777,7.834-0.734c5.555-3.576,13.158,0.802,13.158,7.142c0,4.702-3.831,8.533-8.533,8.533h-68.267 c-4.702,0-8.533-3.831-8.533-8.533c0-4.702,3.831-8.533,8.533-8.533c1.638,0,3.191,0.469,4.625,1.391 c2.338,1.51,5.257,1.775,7.834,0.734C433.169,154.684,435.072,152.448,435.695,149.743z">
+                                        </path>
+                                        <path
+                                            d="M162.133,102.4H204.8c4.71,0,8.533-3.823,8.533-8.533c0-4.71-3.823-8.533-8.533-8.533h-42.667 c-4.702,0-8.533-3.831-8.533-8.533c0-6.34,7.612-10.726,13.158-7.142c2.338,1.51,5.257,1.783,7.834,0.734 c2.577-1.041,4.48-3.277,5.103-5.982c1.801-7.774,8.619-13.21,16.572-13.21c3.106,0,6.135,0.845,8.772,2.449 c4.028,2.432,9.276,1.161,11.725-2.867c2.441-4.036,1.161-9.284-2.867-11.725c-5.308-3.217-11.401-4.924-17.63-4.924 c-12.655,0-23.859,6.844-29.747,17.451c-1.442-0.256-2.91-0.384-4.386-0.384c-14.114,0-25.6,11.486-25.6,25.6 S148.019,102.4,162.133,102.4z">
+                                        </path>
+                                        <path
+                                            d="M503.467,494.933H366.933c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533h136.533 c4.71,0,8.533-3.823,8.533-8.533S508.177,494.933,503.467,494.933z">
+                                        </path>
+                                        <path
+                                            d="M332.8,494.933h-17.067c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533H332.8c4.71,0,8.533-3.823,8.533-8.533 S337.51,494.933,332.8,494.933z">
+                                        </path>
+                                        <path
+                                            d="M128,494.933H8.533c-4.71,0-8.533,3.823-8.533,8.533S3.823,512,8.533,512H128c4.71,0,8.533-3.823,8.533-8.533 S132.71,494.933,128,494.933z">
+                                        </path>
+                                        <path
+                                            d="M100.83,320c4.471,0,8.883-1.186,12.424-3.234L256,243.166l142.396,73.412c3.891,2.236,8.311,3.422,12.783,3.422 c9.122,0,17.63-4.898,22.187-12.8c7.049-12.228,2.85-27.913-9.02-34.765l-135.117-86.818L281.6,25.6 C281.6,11.486,270.114,0,256,0s-25.6,11.486-25.591,25.199l-7.637,160.418L88.004,272.23c-12.22,7.057-16.418,22.741-9.361,34.97 C83.2,315.093,91.708,320,100.83,320z M96.887,286.797l138.812-89.199c2.321-1.493,3.772-4.019,3.908-6.776L247.467,25.6 c0-4.702,3.831-8.533,8.533-8.533c4.702,0,8.533,3.831,8.542,8.934l7.851,164.821c0.137,2.756,1.587,5.282,3.908,6.776 l139.162,89.404c4.07,2.355,5.47,7.586,3.123,11.665c-2.278,3.934-6.972,5.794-12.015,2.935L259.908,225.98 c-1.22-0.631-2.569-0.947-3.908-0.947s-2.688,0.316-3.908,0.947l-147.012,75.81c-3.985,2.304-9.378,0.811-11.657-3.123 C91.068,294.588,92.467,289.357,96.887,286.797z">
+                                        </path>
+                                        <path
+                                            d="M256.256,213.333c4.719,0,8.533-3.823,8.533-8.533c0-4.71-3.814-8.533-8.533-8.533h-0.085 c-4.71,0-8.491,3.823-8.491,8.533C247.68,209.51,251.546,213.333,256.256,213.333z">
+                                        </path>
+                                        <path
+                                            d="M290.108,502.758c-8.405-100.864-8.508-228.42-8.508-229.692c0-4.71-3.823-8.533-8.533-8.533 c-4.71,0-8.533,3.823-8.533,8.533c0,1.246,0.094,121.924,7.825,221.867H239.65c7.723-99.942,7.817-220.621,7.817-221.867 c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533c0,1.237-0.094,122.342-7.876,221.867h-60.39 c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533H281.6c0.239,0,0.469-0.008,0.708-0.026 c0.469-0.043,0.853-0.273,1.289-0.375c0.563-0.145,1.118-0.23,1.63-0.478c0.495-0.23,0.905-0.58,1.348-0.905 c0.435-0.324,0.887-0.606,1.263-1.015c0.367-0.401,0.614-0.879,0.905-1.34c0.29-0.469,0.597-0.896,0.794-1.417 c0.196-0.529,0.239-1.092,0.333-1.664c0.077-0.444,0.265-0.845,0.265-1.314c0-0.128-0.068-0.23-0.068-0.35 C290.057,502.989,290.116,502.886,290.108,502.758z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p class="font-public-sans font-extralight">Energi angin diperoleh dari pergerakan udara yang
+                    menggerakkan turbin angin untuk menghasilkan listrik. Angin memutar bilah turbin, yang kemudian
+                    menggerakkan generator untuk menghasilkan listrik. Energi angin adalah salah satu sumber energi
+                    terbarukan yang paling cepat berkembang dan merupakan solusi yang ramah lingkungan untuk mengurangi
+                    ketergantungan pada bahan bakar fosil.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="min-h-screen p-20" id="innovation">
+        <div class="p-2 mx-5 border-b-2 border-gray-700">
+            <h1 class="text-xl font-pacifico"><small class="me-2 font-light">03</small>Innovation</h1>
+        </div>
+        <h1 class="text-end font-extrabold mt-10" style="font-size: 40px;">Inovasi kami</h1>
+
+        <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative overflow-hidden rounded-lg mt-20" style="height: 700px;">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="asset/innovation/solid state batery.jpg"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Baterai solid-state merupakan teknologi baterai generasi baru yang
+                            menggantikan elektrolit cair dengan elektrolit padat. Teknologi ini menawarkan densitas
+                            energi yang lebih tinggi, keamanan yang lebih baik, dan umur pakai yang lebih panjang,
+                            menjadikannya sangat ideal untuk kendaraan listrik.</p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Riset yang dipublikasikan oleh EnergyInnovate menunjukkan bahwa baterai
+                            solid-state dapat meningkatkan jarak tempuh kendaraan listrik hingga 50% dengan waktu
+                            pengisian yang lebih singkat. Selain itu, baterai ini memiliki risiko kebakaran yang lebih
+                            rendah, meningkatkan keselamatan kendaraan listrik secara keseluruhan.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/smart grid.jpg"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Smart grid adalah jaringan listrik yang menggunakan teknologi digital
+                            untuk memantau dan mengelola aliran listrik, dengan tujuan untuk meningkatkan efisiensi,
+                            keandalan, dan keberlanjutan distribusi energi. Dengan integrasi kecerdasan buatan (AI) dan
+                            Internet of Things (IoT), smart grid dapat memberikan respon yang lebih cepat terhadap
+                            perubahan permintaan energi dan gangguan dalam jaringan.</p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Menurut riset yang dipublikasikan oleh EnergyInnovate, penggunaan AI dan
+                            IoT dalam smart grid dapat mengurangi kehilangan energi dalam distribusi hingga 15% dan
+                            meningkatkan efisiensi operasional jaringan listrik hingga 20%. Ini juga memungkinkan
+                            integrasi yang lebih lancar dari sumber energi terbarukan seperti surya dan angin.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/panel-surya.jpg"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Energi surya telah menjadi salah satu pilar utama dalam transisi menuju
+                            energi bersih. Salah satu inovasi terbaru adalah penggunaan material perovskit dalam
+                            pembuatan panel surya. Material ini memiliki potensi untuk menghasilkan efisiensi yang lebih
+                            tinggi dengan biaya produksi yang lebih rendah dibandingkan dengan silikon konvensional.
+                        </p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Studi terbaru menunjukkan bahwa panel surya berbasis perovskit dapat
+                            mencapai efisiensi
+                            konversi energi hingga 25%, dengan biaya produksi yang berpotensi lebih rendah hingga 30%
+                            dibandingkan dengan teknologi panel surya berbasis silikon.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/floating turbine.jpg"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Turbin angin lepas pantai telah lama dikenal sebagai sumber energi yang
+                            efisien. Inovasi terbaru melibatkan turbin angin terapung yang dapat dipasang di perairan
+                            dalam, di mana angin cenderung lebih kuat dan lebih konsisten.
+                        </p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Hasil riset menunjukkan bahwa turbin angin terapung dapat meningkatkan
+                            produksi energi angin
+                            hingga 40% dibandingkan dengan turbin angin lepas pantai konvensional yang terpasang di
+                            dasar laut. Selain itu, biaya instalasi dapat dikurangi karena tidak memerlukan struktur
+                            fondasi yang kompleks.</p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/bio fule.png"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Bioenergi adalah sumber energi terbarukan yang dihasilkan dari bahan
+                            biologis, seperti limbah pertanian dan makanan. Teknologi baru memungkinkan pengolahan
+                            limbah organik menjadi biofuel yang dapat digunakan untuk menghasilkan listrik atau sebagai
+                            bahan bakar kendaraan.</p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Riset yang diterbitkan di EnergyInnovate menunjukkan bahwa teknologi
+                            bioenergi baru ini dapat mengurangi emisi karbon hingga 70% dibandingkan dengan bahan bakar
+                            fosil. Selain itu, pengolahan limbah organik menjadi biofuel juga dapat mengurangi volume
+                            limbah yang dibuang ke tempat pembuangan akhir, sehingga mendukung upaya pengelolaan limbah
+                            yang lebih berkelanjutan.</p>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/geothermal.png"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Energi geotermal adalah sumber energi yang berasal dari panas bumi, yang
+                            dapat digunakan untuk pembangkit listrik. Inovasi terbaru melibatkan pembangkit listrik
+                            geotermal modular, yang memungkinkan instalasi yang lebih fleksibel dan cepat, bahkan di
+                            lokasi yang sulit dijangkau.</p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">Studi menunjukkan bahwa pembangkit listrik geotermal modular dapat
+                            mengurangi biaya instalasi hingga 25% dan waktu instalasi hingga 40% dibandingkan dengan
+                            pembangkit listrik geotermal tradisional. Selain itu, teknologi ini dapat diterapkan di
+                            berbagai lokasi, termasuk wilayah dengan aktivitas vulkanik yang rendah.</p>
+                    </div>
+                </div>
+                <!-- Item 7 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="asset/innovation/hydrogen energy.jpeg"
+                        class="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="absolute backdrop-blur-md bg-black bg-opacity-30 bottom-0 p-12">
+                        <p class="text-white text-xs md:text-sm">Hidrogen hijau, yang diproduksi melalui elektrolisis air dengan
+                            menggunakan energi terbarukan, telah muncul sebagai bahan bakar alternatif yang menjanjikan.
+                            Hidrogen ini dapat digunakan sebagai bahan bakar untuk kendaraan, pembangkit listrik, dan
+                            industri berat, menggantikan bahan bakar fosil yang lebih polutif.</p>
+                        <p class="text-white text-xs md:text-sm font-bold mt-2">Hasil Riset:</p>
+                        <p class="text-white text-xs md:text-sm">EnergyInnovate telah menerbitkan riset yang menunjukkan bahwa hidrogen
+                            hijau dapat mengurangi emisi CO2 hingga 90% dibandingkan dengan bahan bakar fosil. Selain
+                            itu, pengembangan teknologi elektrolisis yang lebih efisien telah memangkas biaya produksi
+                            hidrogen hijau hingga 20% dalam lima tahun terakhir.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6"
+                    data-carousel-slide-to="5"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 7"
+                    data-carousel-slide-to="6"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="min-h-screen p-20 overflow-x-hidden" id="scientist">
+        <div class="p-2 mx-5 border-b-2 border-gray-700">
+            <h1 class="text-xl font-pacifico"><small class="me-2 font-light">04</small>Scientist</h1>
+        </div>
+        <h1 class="text-center font-extrabold mt-10" style="font-size: 40px;">What they think about</h1>
+
+        <div id="controls-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative md:h-96 rounded-lg">
+                <!-- Item 1 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item="active">
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/amory lovins.webp" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Amory
+                                Lovins: Efisiensi Energi dan Desain untuk Masa Depan</h5>
+                            <p class="mb-3 font-light text-gray-700">Salah satu pendiri dan Chief
+                                Scientist di Rocky Mountain Institute.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Lovins telah menjadi advokat terkemuka untuk efisiensi energi dan desain yang
+                                mengutamakan pengurangan penggunaan energi. Dalam bukunya yang berjudul "Reinventing
+                                Fire," Lovins mengusulkan bahwa Amerika Serikat dapat sepenuhnya berhenti menggunakan
+                                bahan bakar fosil dan energi nuklir pada tahun 2050 melalui kombinasi efisiensi energi,
+                                energi terbarukan, dan desain yang lebih baik. Risetnya menunjukkan bahwa efisiensi
+                                energi dapat mengurangi kebutuhan energi global hingga 40%, memungkinkan peralihan yang
+                                lebih cepat dan lebih terjangkau ke sumber energi terbarukan seperti angin, surya, dan
+                                bioenergi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item>
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/Goodenough-John.jpg" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">John
+                                Goodenough: Baterai Lithium-Ion untuk Penyimpanan Energi</h5>
+                            <p class="mb-3 font-light text-gray-700">Pemenang Hadiah Nobel Kimia 2019.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Goodenough dikenal sebagai
+                                salah satu penemu baterai lithium-ion, teknologi yang sangat penting untuk penyimpanan
+                                energi. Baterai lithium-ion memainkan peran kunci dalam penyimpanan energi terbarukan,
+                                seperti menyimpan energi dari panel surya dan turbin angin untuk digunakan saat tidak
+                                ada sinar matahari atau angin. Riset lanjutannya juga berfokus pada pengembangan baterai
+                                solid-state yang lebih aman dan memiliki kapasitas lebih tinggi. Penelitian Goodenough
+                                telah mendorong kemajuan besar dalam mobilitas listrik dan penyimpanan energi grid,
+                                memungkinkan integrasi yang lebih luas dari energi terbarukan.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item>
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/Mark Z. Jacobson.jpg" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mark Z.
+                                Jacobson: 100% Energi Terbarukan untuk Dunia</h5>
+                            <p class="mb-3 font-light text-gray-700">Profesor Teknik Sipil dan Lingkungan di Stanford
+                                University.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jacobson terkenal dengan
+                                studinya yang menunjukkan bahwa seluruh dunia dapat didukung oleh energi terbarukan pada
+                                tahun 2050. Dalam risetnya, Jacobson dan timnya mengembangkan peta jalan untuk setiap
+                                negara yang menunjukkan bagaimana mereka dapat beralih ke 100% energi terbarukan,
+                                menggunakan kombinasi angin, matahari, dan energi air. Penelitian ini mendemonstrasikan
+                                bahwa peralihan global ke energi terbarukan tidak hanya mungkin, tetapi juga lebih murah
+                                dan lebih sehat dalam jangka panjang dibandingkan dengan melanjutkan penggunaan bahan
+                                bakar fosil.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item>
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/Daniel Nocera.jpg" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Daniel
+                                Nocera: Energi Surya dan Pembelahan Air untuk Hidrogen</h5>
+                            <p class="mb-3 font-light text-gray-700">Profesor Kimia di Harvard University.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Nocera terkenal dengan
+                                penemuannya tentang "Daun Buatan," sebuah perangkat yang meniru fotosintesis alami untuk
+                                membelah air menjadi hidrogen dan oksigen menggunakan energi matahari. Hidrogen yang
+                                dihasilkan dapat digunakan sebagai bahan bakar yang bersih, sementara oksigen dilepaskan
+                                sebagai produk sampingan. Riset Nocera menunjukkan potensi besar untuk menghasilkan
+                                hidrogen hijau sebagai sumber energi terbarukan yang dapat disimpan dan digunakan ketika
+                                diperlukan, memberikan solusi untuk tantangan penyimpanan energi yang dihadapi oleh
+                                energi terbarukan seperti angin dan matahari.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item>
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/Marilyn Brown.jpg" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Marilyn
+                                Brown: Kebijakan Energi dan Efisiensi Energi</h5>
+                            <p class="mb-3 font-light text-gray-700">Profesor di Georgia Institute of Technology.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Brown telah melakukan banyak
+                                penelitian tentang kebijakan energi, khususnya mengenai bagaimana kebijakan dapat
+                                mendorong adopsi efisiensi energi dan energi terbarukan. Penelitiannya menunjukkan bahwa
+                                kebijakan yang mendorong efisiensi energi dapat menghasilkan penghematan biaya yang
+                                signifikan serta mengurangi emisi gas rumah kaca. Brown juga meneliti potensi pasar
+                                karbon dan insentif ekonomi lainnya untuk mempercepat transisi ke energi terbarukan,
+                                menekankan pentingnya kombinasi teknologi dan kebijakan dalam mengatasi perubahan iklim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="duration-700 ease-in-out p-10" data-carousel-item>
+                    <div
+                        class="flex flex-col h-full items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="asset/scientist/Michael Grätzel.png" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Michael
+                                Grätzel: Sel Surya Dye-Sensitized</h5>
+                            <p class="mb-3 font-light text-gray-700">Profesor Kimia di École Polytechnique Fédérale de
+                                Lausanne (EPFL), Swiss.</p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Grätzel adalah penemu sel surya
+                                dye-sensitized, yang dikenal sebagai "Grätzel cells." Teknologi ini menawarkan cara yang
+                                lebih murah dan fleksibel untuk memanen energi matahari dibandingkan dengan sel surya
+                                silikon tradisional. Sel surya dye-sensitized dapat dibuat dari bahan organik dan dapat
+                                bekerja dengan baik dalam kondisi pencahayaan rendah, seperti di dalam ruangan atau
+                                dalam cuaca mendung. Penelitian Grätzel telah membuka jalan untuk solusi energi surya
+                                yang lebih terjangkau dan lebih luas di seluruh dunia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-700/30 dark:bg-gray-800/30 group-hover:bg-slate-700/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-700/30 dark:bg-gray-800/30 group-hover:bg-slate-700/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="h-screen overflow-hidden relative">
+        <img src="asset/bad environment city.png" alt="" class="absolute w-full h-full" id="bad-bg">
+        <img src="asset/green city.jpg" alt="" class="absolute w-full h-full hidden" id="good-bg">
+        <div class="absolute flex flex-col justify-center w-full h-full" style="align-items: center;">
+            <h2 class="text-white text-7xl font-bold text-center custom-shadow duration-300" id="text1">Mari buat kota
+                kita</h2>
+            <label class="switch mt-20" id="switch">
+                <input type="checkbox" class="chk">
+                <span class="slider"></span>
+            </label>
+            <h2 class="text-white text-7xl font-bold text-center mt-20 opacity-0 custom-shadow duration-300" id="text2">
+                Menjadi lebih baik</h2>
+        </div>
+    </div>
+
+    <div class="min-h-screen bg-slate-900 p-20" id="contact">
+        <div class="p-2 mx-5 border-b-2 border-white">
+            <h1 class="text-xl font-pacifico text-white"><small class="me-2 font-light">05</small>Contact</h1>
+        </div>
+
+        <form>
+            <div class="grid gap-6 my-6 md:grid-cols-2">
+                <div>
+                    <label for="first_name" class="block mb-2 text-sm font-medium text-white dark:text-white">First
+                        name</label>
+                    <input type="text" id="first_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="John" required />
+                </div>
+                <div>
+                    <label for="last_name" class="block mb-2 text-sm font-medium text-white dark:text-white">Last
+                        name</label>
+                    <input type="text" id="last_name"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Doe" required />
+                </div>
+                <div>
+                    <label for="company"
+                        class="block mb-2 text-sm font-medium text-white dark:text-white">Company</label>
+                    <input type="text" id="company"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Your Company" required />
+                </div>
+                <div>
+                    <label for="phone" class="block mb-2 text-sm font-medium text-white dark:text-white">Phone
+                        number</label>
+                    <input type="tel" id="phone"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+                </div>
+            </div>
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm font-medium text-white dark:text-white">Email
+                    address</label>
+                <input type="email" id="email"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="john.doe@company.com" required />
+            </div>
+            <button type="submit"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+        </form>
+    </div>
+
+    <footer class="bg-slate-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="asset/logo.png" class="w-10 h-10 rounded-full " alt="EnergyInnovate Logo" />
+                        <span
+                            class="pl-1 self-center text-2xl font-semibold whitespace-nowrap text-white">EnergyInnovate</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Flowbite</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Tailwind CSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase ">Follow us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline ">Github</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Discord</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#"
+                        class="hover:underline">EnnergyInnovate™</a>. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>
